@@ -38,7 +38,7 @@ def solve_lu_decomposition(P, L, U, b):
 
 
 def get_square_matrix_from_user():
-    print("Enter the size of the square matrix:")
+    print("لطفا سایز ماتریس مربعی را وارد کنید: ")
     size = int(input())
     matrix = []
     print(f"Enter {size}x{size} matrix elements separated by spaces or newlines:")
